@@ -29,12 +29,14 @@ git status
 
 
 
-:+1: :shipit:
+:+1: :shipit: Some silly emoticons that can be used. _*(NEW) Simon & Garfink song*_ "We all come to look for emoticons"
+
 1. List
 2. 2
-|table|
-|---|
-|stuff|
+
+| table |
+| ----- |
+| *item*  |
 
 There is an unusual compile problem ( on Linux) that involves adding -lz or zlib to link to make this work 
 and that seems like a kludge as well as implying that the system is non-deterministic
