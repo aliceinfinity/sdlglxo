@@ -1,5 +1,42 @@
-This a fully functional SDL on Windows 10
-It uses Mingw
-Should show a rotating image
-However the screen position could be odd for other configurations
+Works Windows 10 SDL2 shows colors and a rotating picture
+It uses Mingw to compile with Eclipse, make is broken
 So... YMMV
+On linux it compiles with gcc and the Makefile using "make"
+Things we have learned by trying to create a Windows and Linux Window+SDL2+OpenGL template
+README.md extension means "MarkDown"
+fork to contribute or copy (github only)
+send a pull request
+sync your fork
+
+git status
+* git diff
+* markdown language
+* git remote -v
+* git remote add origin 'url'
+* git add [. || filename || * ]
+* git commit -m "What this commit does"
+* git log
+* sync a fork, fetch, merge , push
+* git remote add upstream "url"
+* git fetch upstream <pass>
+* git merge upstream/master 
+* git push origin master <pass>
+* http://gitref.org/
+* git stash
+* git reset HEAD --file
+* git branch newbranch
+* rejected when pushing and rejected pull requests
+
+
+
+:+1: :shipit:
+1. List
+2. 2
+|table|
+|---|
+|stuff|
+
+There is an unusual compile problem ( on Linux) that involves adding -lz or zlib to link to make this work 
+and that seems like a kludge as well as implying that the system is non-deterministic
+and could change behavior by just changing some unrelated code or in a different machine environment
+The crash happens on SDL_Quit or SDL_Image so it means there is some library interface problem I assume.
