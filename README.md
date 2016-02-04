@@ -42,3 +42,7 @@ There is an unusual compile problem ( on Linux) that involves adding -lz or zlib
 and that seems like a kludge as well as implying that the system is non-deterministic
 and could change behavior by just changing some unrelated code or in a different machine environment
 The crash happens on SDL_Quit or SDL_Image so it means there is some library interface problem I assume.
+
+##github went nuts with emojis## 
+
+I thought they should have an emoji that indicated this repo was a steming pile of shit and lo and behold :poop:
