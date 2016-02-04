@@ -68,7 +68,7 @@ This is actually backward as the Windows 10 code was put under linuxsdl branch a
 :pizza:
 
 # This no walk in the park
-In fact it is more like being stranded in Centrsl Park with no clothes or food , sleeping by day to avoid the semantics cops 
+In fact it is more like being stranded in Central Park with no clothes or food , sleeping by day to avoid the semantics cops 
 and working by night wandering aimlessly through complex APIs and drop down menus with no common structure.
 Finally after you accept help from a good samaritan and try Windows Visual Studio it works somewhat and then they turn
 around and mug you for money and steal your configuration and hold it for ransom.
