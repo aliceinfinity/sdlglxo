@@ -1,12 +1,20 @@
-LinuxSDL branch for the moment
 
-Works Windows 10 SDL2 shows colors and a rotating picture, It uses Mingw to compile with Eclipse, make is broken
-On linux it compiles with gcc and the Makefile using "make"
-**Things we have learned**
-by trying to create a (Windows and Linux)+SDL2+OpenGL+GUI
+| Windows 10 | Linux | 
+| :---: | :---: |
+| status *working*  | status *working* |
+| branch *linuxsdl*  | branch *master* |
 
-README.md (md) extension means "MarkDown"
+This program uses SDL2 libraries and shows solid colors and then a rotating image, 
+It uses Mingw to compile with Eclipse, make on Windows is broken because of 
+library structure (may be my fault by improper installation)
 
+
+On linux it compiles with g++ and the Makefile using "make"
+
+
+**Things we have learned** while trying to create a (Windows and Linux)+SDL2+OpenGL+GUI
+
+* README.md (md) extension means "MarkDown"
 * fork to contribute or copy (github only)
 * send a pull request
 * sync your fork
@@ -31,10 +39,6 @@ README.md (md) extension means "MarkDown"
 
 :+1: :shipit: (shipit) Some silly emoticons that can be used. **(NEW) Simian & Garflunker song** "We all come to look for emoticons"
 
-| Windows 10 | Linux | 
-| :---: | :---: |
-| *working*  | *working* |
-| *linuxsdl*  | *master* |
 
 
 There is an unusual compile problem ( on Linux) that involves adding -lz or zlib to link to make this work 
@@ -62,8 +66,8 @@ The naming is somewhat backward as the Windows 10 code was put under linuxsdl br
 9. Visual Studio is a tar baby in the briar patch that should be avoided
 10. Windows upgrades are not synchronous
 11. Many more
-
-:pizza:
+12. nullptr and NULL resolves with compiler option *-std=c++0x* and is this part *bold*
+:pizza: is pizza on the list?
 
 # This is no walk in the park
 In fact it is more like being stranded in Central Park with no clothes or food , sleeping by day to avoid the semantics cops 
@@ -73,7 +77,7 @@ around and mug you for money and steal your configuration and hold it for ransom
 The linux version works almost imediately and after wandering about in the dark running into trees that look like
 solutions and turn out to be bears you happen upon a meadow where everything works and you think you are home but ...
 the nagging question is this some special place like a local minimum that works today at this time and will disappear 
-at random and you will be left in the dark, naked and screaming that you wish you were doing something simple like brain surgery.
+at random and you will be left in the dark, naked and screaming that you wish you were doing something simpler, like brain surgery.
 
 - [x] some done
 - [ ] much more to do
