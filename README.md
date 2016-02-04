@@ -31,7 +31,7 @@ sync your fork
 
 
 
-:+1: :shipit: Some silly emoticons that can be used. **(NEW) Simeon & Garflunk song** "We all come to look for emoticons"
+:+1: :shipit: Some silly emoticons that can be used. **(NEW) Simian & Garflunker song** "We all come to look for emoticons"
 
 1. List
 2. 2
