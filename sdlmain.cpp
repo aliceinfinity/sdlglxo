@@ -3,22 +3,33 @@
  *
  *  Created on: Dec 27, 2015
  *      Author: motey
+ * The libgcc_s_dw2-1.dll should be in the compiler's bin directory. 
+ * You can add this directory to your PATH environment variable for runtime linking, or you can avoid the problem by 
+ * adding "-static-libgcc -static-libstdc++" to your compiler flags.
  */
-
-//#define WIN32
-//#include <string>
-//#include <iostream>
+#define SDLTWO
+#ifdef _WIN32
 #include <SDL.h>
-//#include <SDLmain.h>
 #include <SDL_ttf.h>
 #include <SDL_image.h>
 #include <SDL_mixer.h>
-#ifdef _WIN32
 #include <windows.h>
+#include <GL/GL.h>
+#endif
+#ifdef LINUX
+#ifdef SDLTWO
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_mixer.h>
 #else
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include <SDL/SDL_mixer.h>
+#endif
+#include <SDL/SDL_ttf.h>
+#include <GL/gl.h>
 //Using X-window context
 #endif
-#include <GL/GL.h>
 #include "Ants2016z.h"
 
 //A triangle and then a texture
@@ -76,11 +87,11 @@ int GlSdlTest1(	SDL_Renderer *ren , SDL_Window *win ,SDL_GLContext context){
 	for (int i = 0; i < 70; ++i) {
 		//First clear the renderer
 		SDL_RenderClear(ren);
-		glRotatef(rotation,1.0,0.0,1.0);
+		//glRotatef(rotation,0.10,0.0,0.1);
 		SDL_RenderCopyEx(ren, tex, NULL, NULL,rotation,NULL,SDL_FLIP_NONE);
-		glRotatef(rotation,1.0,0.0,1.0);
+		//glRotatef(rotation,0.01,0.0,0.01);
 		SDL_RenderPresent(ren);
-		rotation+=10.0;
+		rotation+=1.0;
 		SDL_Delay(100);
 	}
 	SDL_DestroyTexture(tex);

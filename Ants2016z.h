@@ -9,7 +9,13 @@
 #define ANTS2016Z_H_
 #include <iostream>
 #include <string>
-#include <SDL.h>
+#ifdef LINUX
+#ifdef SDLTWO
+#include <SDL2/SDL.h>
+#else
+#include <SDL/SDL.h>
+#endif
+#endif
 
 /*
 * Get the resource path for resources located in res/subDir
