@@ -33,12 +33,12 @@ sync your fork
 
 :+1: :shipit: Some silly emoticons that can be used. **(NEW) Simian & Garflunker song** "We all come to look for emoticons"
 
-1. List
-2. 2
 
-| table |
-| ----- |
-| *item*  |
+| Windows 10 | Linux | 
+| ----- | --- |
+| *working*  | *working* |
+| *linuxsdl*  | *master* |
+
 
 There is an unusual compile problem ( on Linux) that involves adding -lz or zlib to link to make this work 
 and that seems like a kludge as well as implying that the system is non-deterministic
@@ -46,6 +46,7 @@ and could change behavior by just changing some unrelated code or in a different
 The crash happens on SDL_Quit or SDL_Image so it means there is some library interface problem I assume.
 
 ## github went nuts with emojis 
+http://emoji-cheat-sheet.com
 
 I thought they should have an emoji that indicated this repo was a steaming pile of shit and lo and behold (poop) :poop:
 and it has shit which is the same
@@ -76,3 +77,6 @@ The linux version works almost imediately and after wandering about in the dark 
 solutions and turn out to be bears you happen upon a meadow where everything works and you think you are home but ...
 the nagging question is this some special place like a local minimum that works today at this time and will disappear 
 at random and you will be left in the dark naked and screaming that you wish you were doing something simple like brain surgery.
+
+[x] some done
+[ ] much more to do
