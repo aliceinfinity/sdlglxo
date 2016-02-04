@@ -47,4 +47,4 @@ The crash happens on SDL_Quit or SDL_Image so it means there is some library int
 
 ## github went nuts with emojis 
 
-I thought they should have an emoji that indicated this repo was a steming pile of shit and lo and behold (poop) :poop:
+I thought they should have an emoji that indicated this repo was a steaming pile of shit and lo and behold (poop) :poop:
