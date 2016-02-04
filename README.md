@@ -66,3 +66,13 @@ This is actually backward as the Windows 10 code was put under linuxsdl branch a
 11. Windows upgrades are not synchronous
 
 :pizza:
+
+# This no walk in the park
+In fact it is more like being stranded in Centrsl Park with no clothes or food , sleeping by day to avoid the semantics cops 
+and working by night wandering aimlessly through complex APIs and drop down menus with no common structure.
+Finally after you accept help from a good samaritan and try Windows Visual Studio it works somewhat and then they turn
+around and mug you for money and steal your configuration and hold it for ransom.
+The linux version works almost imediately and after wandering about in the dark running into trees that look like
+solutions and turn out to be bears you happen upon a meadow where everything works and you think you are home but ...
+the nagging question is this some special place like a local minimum that works today at this time and will disappear 
+at random and you will be left in the dark naked and screaming that you wish you were doing something simple like brain surgery.
