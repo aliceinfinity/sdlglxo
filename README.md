@@ -8,7 +8,7 @@ fork to contribute or copy (github only)
 send a pull request
 sync your fork
 
-git status
+* git status
 * git diff
 * markdown language
 * git remote -v
@@ -29,7 +29,7 @@ git status
 
 
 
-:+1: :shipit: Some silly emoticons that can be used. _*(NEW) Simon & Garfink song*_ "We all come to look for emoticons"
+:+1: :shipit: ? Ship It - Some silly emoticons that can be used. **(NEW) Simian & Garflunker song** "We all come to look for emoticons"
 
 1. List
 2. 2
@@ -43,6 +43,6 @@ and that seems like a kludge as well as implying that the system is non-determin
 and could change behavior by just changing some unrelated code or in a different machine environment
 The crash happens on SDL_Quit or SDL_Image so it means there is some library interface problem I assume.
 
-##github went nuts with emojis## 
+## github went nuts with emojis 
 
-I thought they should have an emoji that indicated this repo was a steming pile of shit and lo and behold :poop:
+I thought they should have an emoji that indicated this repo was a steaming pile of shit and lo and behold (poop) :poop:
