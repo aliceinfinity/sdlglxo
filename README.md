@@ -48,3 +48,21 @@ The crash happens on SDL_Quit or SDL_Image so it means there is some library int
 ## github went nuts with emojis 
 
 I thought they should have an emoji that indicated this repo was a steaming pile of shit and lo and behold (poop) :poop:
+and it has shit which is the same
+
+This is actually backward as the Windows 10 code was put under linuxsdl branch and the linux code is under master
+
+# Things that have been problems with cross platform code:
+1. IDE and MinGW and cygwin as well as spaces in names and /\ path variations
+2. SDL libraries vary between the different Operating Systems
+3. OpenGL does not work the same on Windows as it does on Ubuntu Linux
+4. Hardware varies between machines and thus speed as well as methods vary
+5. The complexity of the IDE is different than Cmake or config or make
+6. Code and library locations are not standardized on Windows
+7. If files are --static they can hold onto security flaws
+8. Dynamic link can create new problems
+9. Visual Studio is a tar baby in the briar patch that should be avoided
+10. Many more
+11. Windows upgrades are not synchronous
+
+:pizza:
