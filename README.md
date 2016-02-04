@@ -78,5 +78,5 @@ solutions and turn out to be bears you happen upon a meadow where everything wor
 the nagging question is this some special place like a local minimum that works today at this time and will disappear 
 at random and you will be left in the dark naked and screaming that you wish you were doing something simple like brain surgery.
 
-[x] some done
-[ ] much more to do
+- [x] some done
+- [ ] much more to do
