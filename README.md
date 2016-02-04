@@ -66,18 +66,19 @@ The naming is somewhat backward as the Windows 10 code was put under linuxsdl br
 9. Visual Studio is a tar baby in the briar patch that should be avoided
 10. Windows upgrades are not synchronous
 11. Many more
-12. nullptr and NULL resolves with compiler option *-std=c++0x* and is this part *bold*
-:pizza: is pizza on the list?
+12. nullptr and NULL resolves with compiler option **-std=c++0x** and is this part **bold**
+13, :pizza: is pizza on the list?
 
 # This is no walk in the park
 In fact it is more like being stranded in Central Park with no clothes or food , sleeping by day to avoid the semantics cops 
 and working by night wandering aimlessly through complex APIs and drop down menus with no common structure.
-Finally after you accept help from a good samaritan and try Windows Visual Studio it works somewhat and then they turn
+Finally after you accept help from what appears to be a good samaritan and try Windows Visual Studio free trial 
+and it works somewhat and then 30 days later when you are still trying to figure out how to use it effectively, they turn
 around and mug you for money and steal your configuration and hold it for ransom.
 The linux version works almost imediately and after wandering about in the dark running into trees that look like
 solutions and turn out to be bears you happen upon a meadow where everything works and you think you are home but ...
-the nagging question is this some special place like a local minimum that works today at this time and will disappear 
-at random and you will be left in the dark, naked and screaming that you wish you were doing something simpler, like brain surgery.
+the nagging question is: Is this some special place like a local minimum that works today at this time and will disappear 
+at random and you will be left in the dark, naked and screaming that you wish you were doing something simpler, like brain surgery?
 
 - [x] some done
 - [ ] much more to do
