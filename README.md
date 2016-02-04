@@ -1,10 +1,10 @@
 
-| Windows 10 | Linux | 
-| :---: | :---: |
-| status *working*  | status *working* |
-| branch *linuxsdl*  | branch *master* |
+|  | Windows 10 | Linux | 
+| :---: |:---: | :---: |
+| status | *working*  | *working* |
+| branch | *linuxsdl*  | *master* |
 
-This program uses SDL2 libraries and shows solid colors and then a rotating image, 
+This program uses SDL2 libraries and shows RGB solid colors and then a rotating image, 
 It uses Mingw to compile with Eclipse, make on Windows is broken because of 
 library structure (may be my fault by improper installation)
 
@@ -66,8 +66,8 @@ The naming is somewhat backward as the Windows 10 code was put under linuxsdl br
 9. Visual Studio is a tar baby in the briar patch that should be avoided
 10. Windows upgrades are not synchronous
 11. Many more
-12. nullptr and NULL resolves with compiler option **-std=c++0x** and is this part **bold**
-13, :pizza: is pizza on the list?
+12. nullptr and NULL resolves with compiler option **-std=c++0x** 
+13. :pizza: is pizza on the list?
 
 # This is no walk in the park
 In fact it is more like being stranded in Central Park with no clothes or food , sleeping by day to avoid the semantics cops 
